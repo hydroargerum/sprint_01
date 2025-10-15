@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  background-color: lightcyan;
+}
+.header {
+  width: 1100;
+  height: 293;
+}
+
+.nav_menu {
+  display: inline-block;
+  margin-top: 133;
+  margin-left: 50;
+}
+
+.logo {
+  display: block;
+  margin: 92 474 96 478;
+}
+
+.contacts {
+  display: block;
+  width: 239.47976684570312;
+  height: 24;
+  top: 95px;
+  left: 810.52px;
+  border-width: 1px;
+}
+
+.you_need_it {
+  width: 1100;
+  height: 757;
+  top: 293px;
+  background-color: lightgreen;
+}
+
+.lots {
+  width: 1052;
+  height: 723;
+  top: 1230px;
+  left: 24px;
+  background-color: lightseagreen;
+}
+
+.about_the_auction {
+  width: 1052;
+  height: 595;
+  top: 2073px;
+  left: 24px;
+  background-color: greenyellow;
+}
+
+.footer {
+  width: 1100;
+  height: 180;
+  top: 2848px;
+  background-color: lightpink;
+}
+ 
