@@ -4,47 +4,129 @@
 }
 
 .body {
-  display: flex;
-  background-color: lightcyan;
+  width: 1100px;
+  font-family: "Raleway", sans-serif;
 }
+
 .header {
-  width: 1100;
-  height: 293;
+  display: flex;
+  justify-content: space-between;
+  height: 293px;
+  background-color: cyan;
+  /* nav_menu 
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%; */
 }
 
 .nav_menu {
-  display: inline-block;
-  margin-top: 133;
-  margin-left: 50;
+  display: block;
+  margin-top: 133px;
+  margin-left: 50px;
+}
+
+.nav_link {
+  display: inline;
+  list-style: disc inside;
 }
 
 .logo {
   display: block;
-  margin: 92 474 96 478;
+  justify-self: center;
+/*  margin: 92px 474px 96px 478px;*/
 }
 
 .contacts {
   display: block;
-  width: 239.47976684570312;
-  height: 24;
+  width: 239.47976684570312px;
+  height: 24px;
   top: 95px;
   left: 810.52px;
   border-width: 1px;
+/*  line-height: 24.3px; */
 }
 
 .you_need_it {
-  width: 1100;
-  height: 757;
+  display: block;
+  height: 757px;
   top: 293px;
-  background-color: lightgreen;
+  background-color: green;
+/*  оНО ТЕБЕ НАДО
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 100px;
+  leading-trim: NONE;
+  line-height: 115%;
+  letter-spacing: 30%;
+  text-transform: uppercase; */
+
+/*  Аукцион вещей, вкоторые никто не верил
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase; */
+
+/* Сделать ставку
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase; */
 }
 
 .lots {
-  width: 1052;
-  height: 723;
-  top: 1230px;
-  left: 24px;
-  background-color: lightseagreen;
+  width: 1052px;
+  height: 723px;
+  justify-content: center;
+/*  top: 1230px;
+  left: 24px;*/
+  background-color: seagreen;
+/* Лоты
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase; */
+
+/* Фильм режиссёра, который бросил киношколу
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-offset: 0%;
+text-decoration-thickness: 0%;*/
+
+/* Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%; */
+
+/*  <a>посмотреть больше</a>
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;*/
 }
 
 .about_the_auction {
@@ -53,12 +135,40 @@
   top: 2073px;
   left: 24px;
   background-color: greenyellow;
+
+/* Об аукционе
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase; */
+
+/* Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%;*/
+
+/* Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%; */
+
+
 }
 
 .footer {
   width: 1100;
   height: 180;
   top: 2848px;
-  background-color: lightpink;
+  background-color: pink;
 }
  
