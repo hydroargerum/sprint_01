@@ -4,6 +4,7 @@
 }
 
 .body {
+  margin: 0 auto;
   width: 1100px;
   font-family: "Raleway", sans-serif;
 }
@@ -13,17 +14,12 @@
   justify-content: space-between;
   height: 293px;
   background-color: cyan;
-  /* nav_menu 
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%; */
+  /* nav_menu */
+  font: "Raleway", sans-serif Regular 400 18px;
+/*  letter-spacing: 0%;*/
 }
 
 .nav_menu {
-  display: block;
   margin-top: 133px;
   margin-left: 50px;
 }
@@ -33,9 +29,10 @@
   list-style: disc inside;
 }
 
-.logo {
-  display: block;
-  justify-self: center;
+.logo_header {
+/*  display: block;*/
+  top: 92px;
+  left: 478px;
 /*  margin: 92px 474px 96px 478px;*/
 }
 
@@ -43,13 +40,13 @@
   display: block;
   width: 239.47976684570312px;
   height: 24px;
-  top: 95px;
-  left: 810.52px;
-  border-width: 1px;
-/*  line-height: 24.3px; */
+  margin: 95px 50px 0 0;
+/*  left: 810.52px;
+  border-width: 1px;*/
+  line-height: 24.3px;
 }
 
-.you_need_it {
+.cover {
   display: block;
   height: 757px;
   top: 293px;
@@ -86,7 +83,7 @@
 .lots {
   width: 1052px;
   height: 723px;
-  justify-content: center;
+  margin: 180px auto 0;
 /*  top: 1230px;
   left: 24px;*/
   background-color: seagreen;
@@ -130,10 +127,11 @@ letter-spacing: 0%;*/
 }
 
 .about_the_auction {
-  width: 1052;
-  height: 595;
-  top: 2073px;
-  left: 24px;
+  width: 1052px;
+  height: 595px;
+  margin: 180px auto 0;
+/*  top: 2073px;
+  left: 24px;*/
   background-color: greenyellow;
 
 /* Об аукционе
@@ -166,9 +164,10 @@ letter-spacing: 0%; */
 }
 
 .footer {
-  width: 1100;
-  height: 180;
-  top: 2848px;
+  width: 1100px;
+  height: 180px;
+  margin: 180px auto 0;
+/*  top: 2848px; */
   background-color: pink;
 }
  
