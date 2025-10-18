@@ -10,18 +10,20 @@
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50px 428px 332px 240px 50px;
+  grid-template-areas: '. menu logo_header contacts .';
   height: 293px;
+  align-items: center;
   background-color: cyan;
-  /* nav_menu */
-  font: "Raleway", sans-serif Regular 400 18px;
-/*  letter-spacing: 0%;*/
 }
 
-.nav_menu {
-  margin-top: 133px;
-  margin-left: 50px;
+.menu {
+/*  margin-top: 133px;
+  margin-left: 50px;*/
+  margin-bottom: 5px;
+  grid-area: menu;
+  font: normal normal Regular 400 18px/100% "Raleway", sans-serif;
 }
 
 .nav_link {
@@ -30,28 +32,32 @@
 }
 
 .logo_header {
-/*  display: block;*/
+  display: block;
+  grid-area: logo_header;
   top: 92px;
   left: 478px;
-/*  margin: 92px 474px 96px 478px;*/
+  margin-bottom: 4px;
 }
 
 .contacts {
   display: block;
-  width: 239.47976684570312px;
-  height: 24px;
-  margin: 95px 50px 0 0;
-/*  left: 810.52px;
-  border-width: 1px;*/
+  grid-area: contacts;
+  font: 400 18px "Raleway", sans-serif;
   line-height: 24.3px;
+  font-style: normal;
+  margin-bottom: 5px;
 }
 
 .cover {
   display: block;
   height: 757px;
   top: 293px;
+  color: white;
   background-color: green;
-/*  оНО ТЕБЕ НАДО
+  background-image: url("../images/lotus.jpg");
+}
+
+  /*  оНО ТЕБЕ НАДО
   font-weight: 700;
   font-style: Bold;
   font-size: 100px;
@@ -78,7 +84,16 @@
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase; */
+.title {
+  display: grid;
+  padding: 165px 50px 50px;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 20px;
+  font: 700 100px/115px "Raleway", sans-serif;
+  letter-spacing: 30%;
+  text-transform: uppercase;
 }
+
 
 .lots {
   width: 1052px;
