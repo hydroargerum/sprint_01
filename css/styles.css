@@ -34,6 +34,7 @@
   grid-area: logo_header;
   top: 92px;
   left: 478px;
+/*  border: 6px solid #000000; ребус нужно решать*/
   margin-bottom: 4px; /* margin: 92px 474px 96x 478px;*/
 }
 
@@ -55,8 +56,9 @@
   display: block;
   height: 757px;
   color: white;
-  background-color: green;
-  background-image: url("../images/lotus.jpg");
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+/*  background-image: url("../images/lotus.jpg");*/
   text-transform: uppercase;
 }
 
@@ -116,15 +118,18 @@
 
 .title_lots {
   display: block;
-  font: normal 700 40px/100% "Raleway", sans-serif;
+  width: 121;
+  height: 47;
+  font: normal 700 40px/47px "Raleway", sans-serif;
   color: black;
-  padding: 0 0 74px 40px;
+  padding-left: 40px;
+  padding-bottom: 27px;
   text-transform: uppercase;
 }
 
 .list_of_lots {
   display: flex;
-/*  top: 27;*/
+  padding: 0;
   justify-content: space-between;
 }
 
@@ -148,7 +153,6 @@
 }
 
 .name_lot {
-/* font: [style] [variant] [weight] [size][/line-height] [family] */
   font: normal 700 22px/120% "Raleway", sans-serif;
   color: white;
   text-transform: uppercase;
@@ -156,57 +160,40 @@
 }
 
 .description_lot {
-/* font: [style] [variant] [weight] [size][/line-height] [family] */
   font: normal 400 20px/120% "Raleway", sans-serif;
   color: white;
 }
-  /* Лоты
-font-weight: 700;
-font-style: Bold;
-font-size: 40px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: uppercase; */
 
-/* Фильм режиссёра, который бросил киношколу
-font-weight: 700;
-font-style: Bold;
-font-size: 22px;
-leading-trim: NONE;
-line-height: 120%;
-letter-spacing: 0%;
-text-transform: uppercase;
-text-decoration: underline;
-text-decoration-style: solid;
-text-decoration-offset: 0%;
-text-decoration-thickness: 0%;*/
-
-/* Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-font-weight: 400;
-font-style: Regular;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 120%;
-letter-spacing: 0%; */
-
-/*  <a>посмотреть больше</a>
-font-weight: 400;
-font-style: Regular;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;*/
+.more_position {
+  display: block;
+  padding: 30px 0 0 40px;
 }
 
-.about_the_auction {
+.more {
+/* font: [style] [variant] [weight] [size][/line-height] [family] */
+  font: normal 400 20px/100% "Raleway", sans-serif;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+.about {
   width: 1052px;
   height: 595px;
-  margin: 180px auto 0;
-/*  top: 2073px;
-  left: 24px;*/
-  background-color: greenyellow;
+  margin: 180px auto 180px;
+  padding: 35px 0 0 47px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
+.logo_about {
+  display: block;
+  top: 35px;
+  left: 47px;
+  width: 240px;
+  height: 240px;
+/*  border: 6px solid #000000; ребус нужно решать*/
+  margin-bottom: 4px; /* margin: 92px 474px 96x 478px;*/
+}
 /* Об аукционе
 font-weight: 700;
 font-style: Bold;
@@ -234,12 +221,10 @@ line-height: 24px;
 letter-spacing: 0%; */
 
 
-}
-
 .footer {
   width: 1100px;
   height: 180px;
-  margin: 180px auto 0;
+  margin: 0 auto;
 /*  top: 2848px; */
   background-color: pink;
 }
