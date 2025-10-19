@@ -6,7 +6,6 @@
 .body {
   margin: 0 auto;
   width: 1100px;
-  font-family: "Raleway", sans-serif;
 }
 
 .header {
@@ -19,16 +18,15 @@
 }
 
 .menu {
-/*  margin-top: 133px;
-  margin-left: 50px;*/
-  margin-bottom: 5px;
+  margin-bottom: 5px; /*  margin: 133px XXX 138px 50px;*/
   grid-area: menu;
-  font: normal normal Regular 400 18px/100% "Raleway", sans-serif;
+  font: normal 400 18px/100% "Raleway", sans-serif;
+  letter-spacing: 0%;
 }
 
 .nav_link {
   display: inline;
-  list-style: disc inside;
+  list-style: disc inside; /* не работает ??? */
 }
 
 .logo_header {
@@ -36,64 +34,77 @@
   grid-area: logo_header;
   top: 92px;
   left: 478px;
-  margin-bottom: 4px;
+  margin-bottom: 4px; /* margin: 92px 474px 96x 478px;*/
 }
 
 .contacts {
   display: block;
   grid-area: contacts;
-  font: 400 18px "Raleway", sans-serif;
-  line-height: 24.3px;
-  font-style: normal;
+  font: normal 400 18px/24.3px "Raleway", sans-serif;
   margin-bottom: 5px;
+  letter-spacing: 0%;
+}
+
+.contact {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .cover {
   display: block;
   height: 757px;
-  top: 293px;
   color: white;
   background-color: green;
   background-image: url("../images/lotus.jpg");
-}
-
-  /*  оНО ТЕБЕ НАДО
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 100px;
-  leading-trim: NONE;
-  line-height: 115%;
-  letter-spacing: 30%;
-  text-transform: uppercase; */
-
-/*  Аукцион вещей, вкоторые никто не верил
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 22px;
-  leading-trim: NONE;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-transform: uppercase; */
-
-/* Сделать ставку
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 22px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  text-transform: uppercase; */
-.title {
-  display: grid;
-  padding: 165px 50px 50px;
-  grid-template-rows: 1fr 1fr 1fr;
-  row-gap: 20px;
-  font: 700 100px/115px "Raleway", sans-serif;
-  letter-spacing: 30%;
   text-transform: uppercase;
 }
 
+.title {
+  display: grid;
+  padding: 165px 50px 0;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 20px;
+}
+
+.you_need_it {
+  display: block;
+  font: normal 700 100px/115px "Raleway", sans-serif;
+  letter-spacing: 0.3em;
+}
+
+.text_left {
+  justify-self: start;
+}
+
+.text_center {
+  justify-self: center;
+}
+.text_right {
+  justify-self: end;
+}
+
+.description {
+  display: flex;
+  font: normal 400 22px/28px "Raleway", sans-serif;
+  letter-spacing: 0;
+  padding: 106px 50px 50px 50px;
+  justify-content: space-between;
+}
+
+.make_bet {
+/*  display: block;*/
+  width: 256px;
+  height: 51px;
+  background-color: transparent;
+  border: 1px solid white;
+/* font: [style] [variant] [weight] [size][/line-height] [family] */
+  font: normal 500 22px/100% "Raleway", sans-serif;
+  letter-spacing: 0%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 .lots {
   width: 1052px;
